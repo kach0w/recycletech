@@ -15,7 +15,7 @@ export default function Home() {
       <div className='sm:mt-[15vh] bg-white font-bold mb-5 sm:mb-[10vh]'>
         <h1 className='text-5xl text-[#0e465a]'>Our Team</h1>
         <br></br>
-        <Image className='w-[400px] h-[400px] rounded-md mx-auto' src={headshot} />
+        <Image className='sm:w-[400px] sm:h-[400px] rounded-md mx-auto' src={headshot} />
         <br></br>
         <div className='w-[400px] mx-auto'>
             <h2 className='text-3xl '>Karthik Sabhanayakam</h2>
