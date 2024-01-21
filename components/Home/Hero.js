@@ -8,9 +8,9 @@ export default function Hero() {
        <main className="mt-5 md:mt-20">
          <div className="mx-auto sm:text-center items-center">
            <div className="">
-             <h1 className="mt-4 text-5xl font-medium sm:mt-5 lg:mt-6 lg:text-7xl xl:text-7xl mx-auto">
-               <span className="text-white">Solving the world's</span>
-               <span className="sm:block w-full text-white font-bold">
+             <h1 className="mt-4 sm:text-5xl font-medium sm:mt-5 lg:mt-6 lg:text-7xl xl:text-7xl mx-auto">
+               <span className="text-white lg:w-[100vw]">Solving the world's</span>
+               <span className="block sm:w-full text-white font-bold">
                  leading issues
                </span>
              </h1>
@@ -18,7 +18,7 @@ export default function Hero() {
                An nonprofit devoted to closing the digital divide and reducing e-waste.
              </p>
            </div>
-           <div className="text-[white] mt-10 z-2">
+           <div className="text-[white] mb-10 mt-10 z-2">
              <a className="rounded-md bg-[#0e465a] hover:bg-[#0e465acc] p-5 font-extrabold border-5" href="/donate">Donate Now</a>
            </div>
          </div>

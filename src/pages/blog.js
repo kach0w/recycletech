@@ -6,16 +6,16 @@ import laptops from '../../assets/laptops.jpg'
 import Head from 'next/head'
 export default function Home() {
   return (
-    <div className='h-[100vh] bg-[white]'>
+    <div className='sm:h-[100vh] bg-[white]'>
       <Head>
         <title>Recycle Tech</title>
         <link rel="icon" sizes="196x196" href="/logo.png"/>  
       </Head>
       <Navbar />
-      <div className='mt-[15vh] bg-white font-bold mb-[15vh]'>
-        <h1 className='text-5xl text-[#0e465a]'>Blog</h1>
+      <div className='mt-[7vh] sm:mt-[15vh] bg-white font-bold mb-[9vh] sm:mb-[15vh]'>
+        <h1 className='mb-5 sm:mb-0 sm:text-5xl text-[#0e465a]'>Blog</h1>
         <ul>
-            <li className='w-[650px] py-[50px] mx-auto'>
+            <li className='sm:w-[650px] sm:py-[50px] mx-auto'>
             <a href="/blog/intro">
                 <div >
                 <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ewastescraprecycling.com%2Fimages%2Flaptop-recycling.jpg&f=1&nofb=1&ipt=fc686f233202655675fa7c89a4adfa2facd97ceb4e1f6f120f2c32607b25c08c&ipo=images"></img>                    

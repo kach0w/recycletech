@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" sizes="196x196" href="/logo.png"/>  
       </Head>
       <Navbar />
-      <div className='mt-[15vh] bg-white font-bold mb-[10vh]'>
+      <div className='sm:mt-[15vh] bg-white font-bold mb-5 sm:mb-[10vh]'>
         <h1 className='text-5xl text-[#0e465a]'>Our Team</h1>
         <br></br>
         <Image className='w-[400px] h-[400px] rounded-md mx-auto' src={headshot} />

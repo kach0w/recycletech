@@ -13,7 +13,7 @@ export default function Home() {
         <title>Recycle Tech</title>
         <link rel="icon" sizes="196x196" href="/logo.png"/>  
       </Head>
-      <Navbar />
+      < Navbar />
       < Hero />
       < About />
       < Numbers />
