@@ -5,7 +5,7 @@ import Footer from '../../components/Footer'
 import Head from 'next/head'
 export default function Home() {
   return (
-    <div className='h-[100vh] bg-[white]'>
+    <div className='w-[100vw] h-[100vh] bg-[white]'>
       <Head>
         <title>Recycle Tech</title>
         <link rel="icon" sizes="196x196" href="/logo.png"/>  
